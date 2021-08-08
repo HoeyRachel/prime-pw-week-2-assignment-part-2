@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// // We make a variable called name and set it to a value of Dane as a string.
+// Then we make an if else condtional statement. Stating that if the string variable is equal to Mary,
+// we console log 'Hi Mary!. If the name is not Mary, we console log 'How do you do?'. 
+// We console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
+// // Variable is called secret. A conditional is created inside that variable to set what prints to the console.
+// Variable code is set to number 123. If code is equal to 123 we give a value of 'super' to the variable secret.
 // 
-// 
-// 
-//
+// We console.log 'super'.
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// //We create a variable call isStudent and set it to the Boolean value of true. We create a variable called
+// age with the value of 34 as a number and a variable called zip with the value of 55407 as a number. Using 
+// compound conditionals we make if else statements. The compound conditional on the first line checks if two things 
+// are true. The second line uses double pipes which means or and that we only care if one of the conditionals is true
+// The third line only cares about the first variable being true. The 4th line would print if none of the above were true. 
+// We console.log 'Welcome to Prime'. 
 
 //CODE
 /*
@@ -129,13 +131,15 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
-let colorOne = 'red';
-let colorTwo = 'blue';
+/* FIX color One should be 'blue' and colorTwo should be 'red'
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
+FIX only colorOne was set to purple
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
 
@@ -143,11 +147,13 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
-/*
+//FIX time should not be const
+/* 
 let temp = 40;
-const time = 4;
+let time = 4;
 
-if (temp > 39 || time >= 4) {
+//FIX should use the and operator, not the or
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -160,10 +166,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+//FIX Incorrect comparison operation. Was showing less than or equal too. Also have to reverse minAge & age.
+//FIX 'enter' and 'no entry' need to be reversed.
+if(age >= minAge) {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
 
